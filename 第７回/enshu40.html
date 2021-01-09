@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>演習問題40</title>
+		<link rel="stylesheet" type="text/css" href="css/enshu40.css">
+	</head>
+	<body>
+		<h1>表を見やすく整えよう</h1>
+		<table>
+			<caption>注文表</caption>
+			<colgroup>
+				<col class="name">
+			</colgroup>
+			<colgroup span="1"></colgroup>
+			<colgroup span="1"></colgroup>
+			<colgroup span="1"></colgroup>
+			<thead>
+				<tr>
+					<th scope="col">商品名</th>
+					<th scope="col">色</th>
+					<th scope="col">数量</th>
+					<th scope="col">単価</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>エリアラグ</td>
+					<td>アイボリー</td>
+					<td>1</td>
+					<td>2,980円</td>
+				</tr>
+				<tr>
+					<td>リネンカーテン</td>
+					<td>ベージュ</td>
+					<td>2</td>
+					<td>7,980円</td>
+				</tr>
+				<tr>
+					<td>ソファ</td>
+					<td>ベージュ</td>
+					<td>1</td>
+					<td>29,800円</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row">商品小計</th>
+					<td></td>
+					<td></td>
+					<td>40,760円</td>
+				</tr>
+				<tr>
+					<th scope="row">手数料・配送料</th>
+					<td></td>
+					<td></td>
+					<td>1,200円</td>
+				</tr>
+				<tr>
+					<th scope="row">合計</th>
+					<td></td>
+					<td></td>
+					<td>41,960円</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

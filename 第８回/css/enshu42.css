@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 演習問題42 */
+fieldset {
+border: 400px,1px;
+margin-bottom: 35px;
+padding: 10px;
+}
+label{
+    background-color: #FF9999
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>フォームをグループにして説明を加えてみよう</title>
+	</head>
+	<body>
+		<h1>フォームをグループにして説明を加えてみよう</h1>
+		<form method="post" action="form.cgi">
+			<fieldset>
+			<legend>基本情報</legend>
+				<p>氏名（漢字）
+					<input type="text" name="氏名">
+				</p>
+				<p>性別
+					<input type="radio" name="性別" value="男性">男性
+					<input type="radio" name="性別" value="女性">女性
+				</p>
+				</fieldset>
+			<fieldset>
+			<legend>追加情報</legend>
+				<p>メールアドレス
+					<input type="text" name="メールアドレス">
+				</p>
+				<p>お知らせメールを受信しますか？
+					<input type="radio" name="お知らせメール" value="はい">はい
+					<input type="radio" name="お知らせメール" value="いいえ">いいえ
+				</p>
+			</fieldset>
+			<fieldset>
+				<p><label><input type="radio" name="同意する">利用規約に同意する</label></p>
+				<p><input type="submit" value="送信する"></p>
+		</fieldset>
+		</form>
+	</body>
+</html>

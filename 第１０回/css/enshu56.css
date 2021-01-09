@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ 
+/* 例題56 */
+
+body { 
+	background-image: url(../image/back.gif);
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+

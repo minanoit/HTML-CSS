@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 演習問題40 */
+
+table, tr, th, td { 
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+caption {
+	text-align: left;
+	font-weight: bold;
+}
+
+col.name { 
+	background-color: #FFFF99;
+}
+
+tfoot { 
+	background-color: #3399FF;
+}
+
+

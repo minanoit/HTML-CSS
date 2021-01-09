@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 例題9aで作成。例題9bでtext-align属性と値を追加 */
+
+body {
+	background-color: #3366FF;
+}
+
+h1 {
+	color: #CCFFFF;
+}
+
+a:link { /* リンクの色 */
+	color: #FF3399;
+	text-decoration: none;
+}
+
+a:visited { /* 訪れたことのあるリンクの色 */
+	color: #FFCCCC;
+	text-decoration: none;
+}
+
+a:hover { /* カーソルをリンクにあわせた時の色 */
+	color: #99FF99;
+	text-decoration: underline;
+}

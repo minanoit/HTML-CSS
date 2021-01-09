@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>フォームをグループにして説明を加えてみよう</title>
+	</head>
+	<body>
+		<h1>便利な入力欄を追加しよう</h1>
+		<form method="post" action="form.cgi">
+			<p>パスワード（半角英数8桁以上）
+			<input type="password" name="パスワード">
+			</p>
+			<p><input type="submit" value="送信する"></p>
+		</form>			
+		<form method="post" action="form2.cgi">
+			<p>ここから検索
+			<input type="search" name="検索">
+			<input type="submit" value="検索する">
+			</p>
+		</form>
+		<form method="post" action="form3.cgi">
+			<p>希望日
+			<input type="date" name="日時">
+			<input type="submit" value="送信する"></p>
+		</form>
+	</body>
+</html>

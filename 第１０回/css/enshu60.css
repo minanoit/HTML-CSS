@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ 
+/* 演習問題60 */
+
+body { 
+	background-image: url(../image/back.gif);
+	margin: 0px;
+	padding: 0px;
+	margin-top: 30px;
+}
+
+#wrap {
+	width: 800px;
+	height: 600px;
+	background-color: #faf7ef;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+	padding: 0px;
+}
+
+header {
+	width: 800px;
+	height: 100px;
+	background-color: #735610;
+}
+
+h1 {
+	color: #faf7ef;
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+header p {
+	color:  #faf7ef;
+	font-size: 0.8em;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+div#sidebar {
+	width: 240px;
+	float: left;
+}
+
+nav {
+	padding: 20px;
+}
+
+h2 {
+	color:  #735610;
+	font-size: 1.2em;
+	padding-top: 0px;
+	padding-left: 10px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+li {
+	font-size: 1.0em;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style-type: none;
+	float: left;
+	background-image: url(../image/icon.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+a:link {
+	color:#735610;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#FFCCCC;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#FE0159;
+	text-decoration: underline;
+}
+
+div#contents {
+	background-color: #FFFFFF;
+	width: 560px;
+	height: 500px;
+	float: right;
+}
+
+article {
+	padding: 20px;
+}
+
+
+h3 {
+	color:  #735610;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px;
+	border-bottom: 1px dotted;
+}
+
+div.maintext {
+	font-size: 1.0em;
+	width: 520px;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	width: 800px;
+	height: 60px;
+	background-color: #735610;
+	clear: both;
+}
+
+address {
+	color: #FFFFFF;
+	font-size: 0.8em;
+	padding-right: 30px;
+	padding-top: 10px;
+	text-align:right;
+}

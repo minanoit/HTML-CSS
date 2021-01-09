@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 例題27 */
+
+body {
+	background-image: url(../image/back.gif);
+
+	margin: 0px;
+	padding: 0px;
+}
+
+wrap {
+	width: 800px;
+	height: 600px;
+	background-color: #faf7ef;
+margin-right: auto;
+margin-left: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+padding: 0px;
+}
+
+header {
+	width: 800px;
+	height: 100px;
+	background-color: #735610;
+}
+
+h1 {
+	color: #faf7ef;
+	font-size: 1.5em;
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+header p {
+	color: #faf7ef;
+	font-size: 0.8em;
+	margin: 0px;
+	padding-top: 10px;
+}

@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 演習問題38 */
+
+table, tr, th, td { 
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+caption {
+	text-align: left;
+	padding-bottom: 5px;
+}
+

@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ 
+/* 例題55 */
+
+body { 
+	background-color: #FFFFFF;
+}
+ 
+header {
+	text-align: center;
+}
+
+section { 
+	width: 600px;
+	margin-left: auto;
+	margin-right :auto;
+}

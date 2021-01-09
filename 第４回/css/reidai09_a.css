@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 例題9a */
+
+ {
+	background-color: ;
+}
+
+h1 {
+	color: ;
+}
+
+a:link { /* リンクの色 */
+	color: ;
+	text-decoration: ;
+}
+
+a:visited { /* 訪れたことのあるリンクの色 */
+	color: ;
+	text-decoration: none;
+}
+
+a:hover { /* カーソルをリンクにあわせた時の色 */
+
+
+}

@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 演習問題16 */
+
+body { 
+	background-color: #99FFCC;
+}
+
+h1 { 
+	color: #FFFFFF;
+}
+
+p { 
+	color: #999999;
+}
+
+a:link { /* リンクの色 */
+	color: #3399CC;
+	text-decoration:underline;
+}
+
+a:visited { /* 訪れたことのあるリンクの色 */
+	color: #FFFFFF;
+	text-decoration:none;	
+}
+
+a:hover { /* カーソルをリンクにあわせた時の色 */
+	color: #9933CC;
+	text-decoration:underline;	
+}
